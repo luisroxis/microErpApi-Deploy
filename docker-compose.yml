@@ -21,9 +21,9 @@ services:
         networks:
             - brNet
     
-    apiBr:
-        image: luisroxis/boraracharapi:latest
-        container_name: apiBrclear 
+    apiMicro:
+        image: luisroxis/microerpai:latest
+        container_name: apiMicroErp 
         ports:
             - '8080:80'
         networks:
