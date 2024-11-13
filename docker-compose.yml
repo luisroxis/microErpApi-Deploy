@@ -22,7 +22,7 @@ services:
             - brNet
     
     apiMicro:
-        image: luisroxis/microerpai:latest
+        image: luisroxis/microerpapi:latest
         container_name: apiMicroErp 
         ports:
             - '8080:80'
